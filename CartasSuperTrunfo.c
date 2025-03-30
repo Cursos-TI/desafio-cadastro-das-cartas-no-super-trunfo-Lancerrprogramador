@@ -6,20 +6,20 @@
 //Teste Jonny Lima
 
 int main() {
-    char estado = (ceara);
+    char estado = "ceara";
     char carta01[20];
-    char cidade[30]= (Fortaleza);
+    char cidade[30] = "Fortaleza";
     int populacao = 3700000;
-    float area km² = 312,353;
+    float area "km²" = 312,353;
     float pib = 730000000;
-    int pontos turisticos = 15;
+    int pontosturisticos = 15;
 
     scanf("%c", estado);
     scanf("%c", cidade);
     scanf("%d", populacao);
-    scanf("%f", area km²);
+    scanf("%f", area "km²");
     scanf("%f", pib);
-    scanf("%d", pontos turisticos); 
+    scanf("%d", pontosturisticos); 
     // Cadastro das Cartas:
     // Sugestão: Utilize a função scanf para capturar as entradas do usuário para cada atributo.
     // Solicite ao usuário que insira as informações de cada cidade, como o código, nome, população, área, etc.
